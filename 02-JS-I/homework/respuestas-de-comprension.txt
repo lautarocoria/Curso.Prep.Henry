@@ -1,0 +1,32 @@
+Variables:
+        Las computadoras tienen memoria. Pensá como si tuvieras jugando a un juego que tiene 100 niveles. También imaginá que hoy avanzaste 10 niveles y que mañana querés seguir avanzando más. Sin la memoria, cuando apagues la computadora o cuando cierres el juego, se borraría los avances que has hecho y tendrías que volver a comenzar desde el nivel 1. La memoria permite guardar estos datos.
+        La computadora, interiormente, tiene espacios vacíos (podemos pensarlo como cajitas vacías) que luego serán ocupados con datos de nuestro interés como "guardar juego en el nivel 10". O también pueden ser ocupados por datos que la computadora necesita para su correcto funcionamiento. Estos espacios vacíos donde almacenamos datos, en programación se llaman variables. Con la programación yo le digo a la computadora qué hacer. Pero la computadora no habla español, habla otro idioma y para que nos entienda tenemos que aprender su idioma. Cuando a la computadora le doy la instrucción "var edad-luli = 10", ella entiende que tiene que buscar un espacio en la memoria, que a ese espacio (a esa cajita) le ponga una etiqueta que diga "edad-luli" y que dentro almacene el número 10. Esto sirve un montón porque en cualquier momento, cuando me olvide, puedo decirle a la computadora que me muestro lo que hay guardado en la caja "edad-luli", ¿y sabés lo que me va a mostrar? Sí, el 10.
+
+Strings:
+        Para entender qué es un String primero hay que saber qué es un caracter. Un caracter puede ser una letra como por ejemplo la C (minúscula mayúscula), puede ser un número del 0 al 9 como por ejemplo el 1 o puede ser un símbolo cualquiera como por ejemplo este ($), o este (#), o cualquiera de cada uno estos otros (#,&'?/@+).
+        Un String se puede traducir como una "cadena de caracteres" o "conjunto de caracteres". No es más que muchos caracteres juntos. Las palabras que estás leyendo son un conjunto de caracteres (un conjunto de letras), incluso un conjunto de caracteres puede ser esto (22ad)". En programación cuando queres crear una variable (una cajita con algún dato o información), además de decirle qué datos queremos guardar (como la edad de Luli), también tenemos que decirle qué tipo de dato queremos guardar, porque la computadora es un poco tonta y si no le decimos que lo que queremos guardar es un número o un texto, no sabe qué está guardando. Entonces si quiero por ejemplo guardar mi nombre en una variable (en la memoria de la computadora), le tengo que decir "var mi-nombre = "Lautaro". Entonces, te lo explico de nuevo, va a buscar un espacio vacío en la memoria (una cajita), va a ponerle una etiqueda que diga "mi-nombre" para identificarla y va poner dentro "Lautaro". Es importante que cuando guardemos texto o un conjunto de caracteres (String), lo pongamos entre comillas. De esta forma le estamos diciendo a la computadora que Lautaro es un string, un texto, o una cadena de caracteres.
+
+Funciones:
+        Las funciones en programación sirven para no escribir tanto código. Escribir mucho no solo cansa sino que hace que las instrucciones que le damos a la computadora sean muuuy largas y poco legibles. Imaginemos que estás con un amigo y querés jugar con él o ella a las cartas. Hay un juego de cartas que te gusta mucho pero tu amigo no sabe jugar. Podrías enseñarle a jugar y luego disfrutar una partida pero, te gustaría tener que enseñarle cómo jugar todos los días siguientes que se vean por el resto de sus vidas? ¿O te gustaría enseñarle una única vez y los días siguientes invitarlo simplemente a jugar sabiéndo que ya sabe como hacerlo?. En programación las funciones trabajan de forma similar. Vos le enseñas a la computadora cómo hacer algo una única vez y luego cuando lo necesites le pides que vuelva a hacerlo sin la necesidad de volverle a explicar cómo debe hacerlo. La manera de enseñarle es la siguiente: 
+        
+        function jugar-a-las-cartas() {instrucciones}
+
+        "jugar-a-las-cartas()" es el nombre que le damos a una función. Dentro de las llaves van las instrucciones, le enseñamos a la computadora qué hacer cuando le digamos que queremos jugar a las cartas.
+
+        También podríamos enseñarle varios juegos de cartas y luego decirle cuál queremos jugar:
+
+        jugar-a-las-cartas(loba);
+
+        "loba" se conoce en programación como argumento o parámetro.
+
+        Para entender los parámetros pensemos en una función mas sencilla.
+        Imaginemos una función que saluda personas:
+
+        function saludar() {
+            console.log("¡Hola, Sebastián! Un gusto saludarte.");
+        }
+
+        El problema con esta función es que si queremos que la computadora salude a alguien que no se llama Sebastián, deberíamos crear otra función nueva, lo cual sería poco productivo. Acá es donde entran en juego los parámetros.
+
+        func
+
